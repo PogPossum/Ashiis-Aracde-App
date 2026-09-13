@@ -10,7 +10,7 @@ namespace AshiisArcadeConsole
 {
     internal class Program
     {
-        static string connString = @"Server=192.168.0.52,1433;Database=ArcadeBlockade;User Id=sa;Password=Password1;TrustServerCertificate=True;";
+        static string connString = @"Server=x.x.x.x,1433;Database=ArcadeDB;User Id=User;Password=Password1;TrustServerCertificate=True;";
         static void Main(string[] args)
         {
             MainMenu();
